@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 import os
 
 logging.basicConfig(level=logging.INFO)
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8132011800:AAGm9Me8jfaETGByekhK4MQe99ESDR47two")
 
 # Старт
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
